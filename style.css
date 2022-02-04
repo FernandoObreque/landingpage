@@ -5,3 +5,31 @@ font-size: 30px;
 text-align: left;
 }
 
+div.titulo {
+    
+    background-color: rgb(77, 77, 77,0.5);
+    margin: 25px 1px 5px 1px;
+    color: white;
+    text-align: center;
+    font-family: 'Century Gothic';
+    
+    /* color: white;
+    width: 1500px;
+    margin: auto;
+    background-color: rgb(77, 77, 77,0.5);
+    padding: 1px;
+    border-radius: 0px;   
+    text-align:center */
+}
+
+
+div.formulario {
+    color: white;
+    width: 600px;
+    margin: 25px;
+    background-color: rgb(77, 77, 77,0.5);
+    padding: 25px;
+    border-radius: 30px;   
+    text-align: left; 
+    
+ }
