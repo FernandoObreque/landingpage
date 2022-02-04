@@ -9,35 +9,48 @@
     <body>
      
         <div class="titulo">
-        <h1> Nuevo libro</h1>
+        <h1> Nuevo Libro</h1>
         <h2> Lanzamiento oficial </h2>
       </div>
-
-       <div class="descripcion">
+       
+      <img src="image/banner.jpg" width="1500" height="250" >
+       
+      <div class="descripcion">
         <!--  como: "Mi bebé se electrocuto en la bañera" y el best seller "Como hacer voodoo a tu marido" 
             Esta lanzando su libro mas reciente "Como....." -->
             <p>La famosa escritora Anna Baileys, autora de otros
-            exitos como: "a" y el best seller "aa" 
-            Esta lanzando su libro mas reciente "aaa"
+            exitos como: "El pozo secreto" y el best seller "La vida a través  del espejo". <br>
+            Esta lanzando su libro mas reciente "La torre invertida". <br>
+            Como oferta especial las primeras 200 copias tendran un 25% de descuento <br>
+            Puedes hacer tu reserva rellenando el formulario <br>
+            
        </div>
-
-        <div class="formulario">
+     <div class="libro">
+       <img src="image/libro.png" width="626" height="543"> 
+     </div>>
+       <div class="formulario">
             <form action="" method="get">
-             <div class="form-line">
-        
-                Nombre: <input type="text" id="nombre" name="nombre" placeholder="Juan Pérez Soto" required/> <br>
-            
-                Email: <input type="email" id="email" name="email" placeholder="ejemplo@email.com" required/> <br>
-            
-                Género:  <input type="radio" name="mfo" value="m"> Masculino
-                  
-                     <input type="radio" name="mfo" value="f"> Femenino
+                <div class="formline">
+                    Nombre: <input type="text" id="nombre" name="nombre" placeholder="Juan Pérez Soto" required/> <br>
+                </div>
+                
+                <div class="formline">
+                    Email: <input type="email" id="email" name="email" placeholder="ejemplo@email.com" required/> <br>
+                </div>
+                
+                <div class="genero">
+                    Género:  <input type="radio" name="mfo" value="m"> Masculino
+                
+                             <input type="radio" name="mfo" value="f"> Femenino
 
-                     <input type="radio" name="mfo" value="o"> Otro
-                <br>
-                 Edad: <input type="number" name="edad" min="0" max="99">
-                 <br>
-                <button type="submit">Enviar</button>
+                             <input type="radio" name="mfo" value="o"> Otro
+                </div> 
+                <div class="formline">
+                 Edad: <input type="number" name="edad" min="0" max="99" required>
+                </div>
+                <div class="boton">
+                 <button type="submit">Enviar</button>
+                </div>
             </form>
         </div>
            </p>

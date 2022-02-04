@@ -1,8 +1,12 @@
 body {
 background-image: url("image/background.jpg");
 background-repeat: repeat;
-font-size: 30px;
-text-align: left;
+font-size: 25px;
+text-align: center;
+}
+
+body {
+    image
 }
 
 div.titulo {
@@ -11,7 +15,9 @@ div.titulo {
     margin: 25px 1px 5px 1px;
     color: white;
     text-align: center;
-    font-family: 'Century Gothic';
+    font-family:monospace;
+    line-height: 50px;
+    font-size: 30px;
     
     /* color: white;
     width: 1500px;
@@ -25,11 +31,39 @@ div.titulo {
 
 div.formulario {
     color: white;
-    width: 600px;
-    margin: 25px;
+    width: 500px;
+    margin: 100px 10px 10px 900px;
     background-color: rgb(77, 77, 77,0.5);
     padding: 25px;
     border-radius: 30px;   
     text-align: left; 
     
+}
+
+button[type="submit"]{
+    background: rgb(94, 94, 94);
+    border: 1px solid rgb(255, 255, 255);
+    margin:25px 10px 10px 1px;
+    color: white;
+    width: 500px; height: 35px;
+    }
+
+ div.formline {
+    height: 40px;
+
+ }
+ div.descripcion {
+    color: white;
+    width: 1452px;
+    margin: 40px 10px 10px 1px;
+    background-color: rgb(77, 77, 77,0.5);
+    padding: 15px;
+    border-radius: 30px;   
+    text-align:center;
+    font-size: 26px; 
+ }
+
+ div.libro {
+    margin: 40px 10px 10px 1px;
+    align-items: flex-start;
  }
