@@ -13,6 +13,7 @@ div.formulario {
     padding: 50px;
     border-radius: 30px;   
     text-align: left; 
+    font-family: Helvetica;
     
 }
 
@@ -71,7 +72,7 @@ div.columna {
   }
   #menu li>a:hover{
     color: #000;
-    background-color: #eaeaea;
+    background-color: #ffffff;
   }
   #menu>li{
     float: left;
