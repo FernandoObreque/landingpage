@@ -5,32 +5,11 @@ font-size: 25px;
 text-align: center;
 }
 
-
-div.titulo {
-    
-    background-color: rgb(77, 77, 77,0.5);
-  
-    color: white;
-    text-align: center;
-    font-family:monospace;
-    line-height: 50px;
-    font-size: 30px;
-    
-    /* color: white;
-    width: 1500px;
-    margin: auto;
-    background-color: rgb(77, 77, 77,0.5);
-    padding: 1px;
-    border-radius: 0px;   
-    text-align:center */
-}
-
-
 div.formulario {
     color: white;
     width: 350px;
     margin: 100px 10px 10px 150px;
-    background-color: rgb(77, 77, 77,0.5);
+    background-color: rgba(70, 70, 70, 0.6);
     padding: 50px;
     border-radius: 30px;   
     text-align: left; 
@@ -51,13 +30,14 @@ button[type="submit"]{
  }
  div.descripcion {
     color: white;
-    width:95%;
-    margin: 40px 10px 10px 1px;
-    background-color: rgb(77, 77, 77,0.5);
+    width:80%;
+    margin: 30px 10px 10px 120px;
+    background-color: rgba(70, 70, 70, 0.6);
     padding: 15px;
     border-radius: 30px;   
     text-align:center;
-    font-size: 26px; 
+    font-size: 20px;
+    font-family: Helvetica; 
  }
 
 div.columna {
@@ -65,3 +45,49 @@ div.columna {
     width: 50%;
 
 }
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+  header{
+    font-family: Helvetica;
+  
+    margin: auto;
+    
+  }
+  ul{
+    list-style: none;
+    display: inline-block;
+    padding:18px;
+  }
+  #menu li>a{
+    background-color: rgba(70, 70, 70, 0.6);
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    min-width: 200px;
+  }
+  #menu li>a:hover{
+    color: #000;
+    background-color: #eaeaea;
+  }
+  #menu>li{
+    float: left;
+    text-align:center;
+    width: auto;
+
+  }
+  #menu>li>ul{
+    display: none;
+  }
+  #menu>li:hover>ul {
+    display:inline-block;
+  }
+
+  figure.libro {
+    display: block;
+    margin-left:30%;
+    margin-top: 10%;
+  }

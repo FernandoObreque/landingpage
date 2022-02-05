@@ -8,43 +8,50 @@
     </head>
     <body>
      
-        <div class="titulo">
-        <h1> Nuevo Libro</h1>
-        <h2> Lanzamiento oficial </h2>
-      </div>
-     <figure class="banner">
-         <img alt="banner de la pagina" src="image/banner.jpg" width="auto" height="250" />
-     </figure>
-      <div class="descripcion">
-        <!--  como: "Mi bebé se electrocuto en la bañera" y el best seller "Como hacer voodoo a tu marido" 
-            Esta lanzando su libro mas reciente "Como....." -->
+            <header>
+                <nav>
+                    <ul id="menu">
+                        <li><a href="">Inicio</a></li>
+                        <li><a href="">Biografia</a></li>
+                        <li><a href="">Tutoriales</a></li>
+                        <li><a href="">Contacto</a></li>
+                    </ul>
+                 </nav>
+            </header>
+
+           <figure class="banner">
+                <img alt="banner de la pagina" src="image/banner.jpeg" height="250" />
+           </figure>
+      
+        <div class="descripcion">
             <p>La famosa escritora Anna Baileys, autora de otros
             exitos como: "El pozo secreto" y el best seller "La vida a través  del espejo". <br>
             Esta lanzando su libro mas reciente "La torre invertida". <br>
             Como oferta especial las primeras 200 copias tendran un 25% de descuento <br>
-            Puedes hacer tu reserva rellenando el formulario <br>
-         
-       </div>
+            PUEDES HACER TU RESERVA RELLENANDO EL FORMULARIO <br>
+        </div>
 
-       <div>
-            <div class="columna">
+        <div class="columna">
            <!--columna1-->
            <figure class="libro">
-            <img alt="modelo de libro" src="image/libro.png" width="626" height="543" /> 
-         </figure>
-            </div>
+                <img alt="modelo de libro" src="image/libro.jpeg" width="500" /> 
+           </figure>
+        </div>
             
-            <div class="columna">
-            <!--columna2-->
+        <div class="columna">
+                <!--columna2-->
             <div class="formulario">
                 <form action="index.html" method="get">
+                     
                     <div class="formline">
-                        Nombre: <input type="text" id="nombre" name="nombre" placeholder="Juan Pérez Soto" required/> <br>
+                         Nombre: <input type="text" id="nombre" name="nombre" placeholder="Juan Pérez Soto" required/> <br>
                     </div>
+                    
                     <div class="formline">
-                        Email: <input type="email" id="email" name="email" placeholder="ejemplo@email.com" required/> <br>
+                         Email: <input type="email" id="email" name="email" placeholder="ejemplo@email.com" required/> <br>
                     </div>
                     <br>
+                      
                     <div class="genero">
                         Género: 
                         <br>
@@ -55,16 +62,17 @@
                         <input type="radio" name="mfo" value="o"> Otro
                     </div> 
                     <br>
+                        
                     <div class="formline">
-                     Edad: <input type="number" name="edad" min="0" max="99" required>
+                         Edad: <input type="number" name="edad" min="0" max="99" required>
                     </div>
+                      
                     <div class="boton">
-                     <button type="submit">Enviar</button>
+                        <button type="submit">Enviar</button>
                     </div>
                 </form>
             </div>
-            </div>
-       </div>
+        </div>
 
     </body>
 </html>
