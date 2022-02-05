@@ -1,4 +1,4 @@
-<!DOCTYPE <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
     <head>
         <title>Anna Bailyes®</title>
@@ -12,9 +12,9 @@
         <h1> Nuevo Libro</h1>
         <h2> Lanzamiento oficial </h2>
       </div>
-       
-      <img src="image/banner.jpg" width="1500" height="250" >
-       
+     <figure class="banner">
+         <img alt="banner de la pagina" src="image/banner.jpg" width="auto" height="250" />
+     </figure>
       <div class="descripcion">
         <!--  como: "Mi bebé se electrocuto en la bañera" y el best seller "Como hacer voodoo a tu marido" 
             Esta lanzando su libro mas reciente "Como....." -->
@@ -23,38 +23,48 @@
             Esta lanzando su libro mas reciente "La torre invertida". <br>
             Como oferta especial las primeras 200 copias tendran un 25% de descuento <br>
             Puedes hacer tu reserva rellenando el formulario <br>
-            
+         
        </div>
-     <div class="libro">
-       <img src="image/libro.png" width="626" height="543"> 
-     </div>>
-       <div class="formulario">
-            <form action="" method="get">
-                <div class="formline">
-                    Nombre: <input type="text" id="nombre" name="nombre" placeholder="Juan Pérez Soto" required/> <br>
-                </div>
-                
-                <div class="formline">
-                    Email: <input type="email" id="email" name="email" placeholder="ejemplo@email.com" required/> <br>
-                </div>
-                
-                <div class="genero">
-                    Género:  <input type="radio" name="mfo" value="m"> Masculino
-                
-                             <input type="radio" name="mfo" value="f"> Femenino
 
-                             <input type="radio" name="mfo" value="o"> Otro
-                </div> 
-                <div class="formline">
-                 Edad: <input type="number" name="edad" min="0" max="99" required>
-                </div>
-                <div class="boton">
-                 <button type="submit">Enviar</button>
-                </div>
-            </form>
-        </div>
-           </p>
-        </div>
-    
+       <div>
+            <div class="columna">
+           <!--columna1-->
+           <figure class="libro">
+            <img alt="modelo de libro" src="image/libro.png" width="626" height="543" /> 
+         </figure>
+            </div>
+            
+            <div class="columna">
+            <!--columna2-->
+            <div class="formulario">
+                <form action="index.html" method="get">
+                    <div class="formline">
+                        Nombre: <input type="text" id="nombre" name="nombre" placeholder="Juan Pérez Soto" required/> <br>
+                    </div>
+                    <div class="formline">
+                        Email: <input type="email" id="email" name="email" placeholder="ejemplo@email.com" required/> <br>
+                    </div>
+                    <br>
+                    <div class="genero">
+                        Género: 
+                        <br>
+                        <input type="radio" name="mfo" value="m"> Masculino
+                        <br>
+                        <input type="radio" name="mfo" value="f"> Femenino
+                        <br>
+                        <input type="radio" name="mfo" value="o"> Otro
+                    </div> 
+                    <br>
+                    <div class="formline">
+                     Edad: <input type="number" name="edad" min="0" max="99" required>
+                    </div>
+                    <div class="boton">
+                     <button type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+            </div>
+       </div>
+
     </body>
 </html>

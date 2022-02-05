@@ -5,14 +5,11 @@ font-size: 25px;
 text-align: center;
 }
 
-body {
-    image
-}
 
 div.titulo {
     
     background-color: rgb(77, 77, 77,0.5);
-    margin: 25px 1px 5px 1px;
+  
     color: white;
     text-align: center;
     font-family:monospace;
@@ -31,10 +28,10 @@ div.titulo {
 
 div.formulario {
     color: white;
-    width: 500px;
-    margin: 100px 10px 10px 900px;
+    width: 350px;
+    margin: 100px 10px 10px 150px;
     background-color: rgb(77, 77, 77,0.5);
-    padding: 25px;
+    padding: 50px;
     border-radius: 30px;   
     text-align: left; 
     
@@ -45,7 +42,7 @@ button[type="submit"]{
     border: 1px solid rgb(255, 255, 255);
     margin:25px 10px 10px 1px;
     color: white;
-    width: 500px; height: 35px;
+    width: 350px; height: 35px;
     }
 
  div.formline {
@@ -54,7 +51,7 @@ button[type="submit"]{
  }
  div.descripcion {
     color: white;
-    width: 1452px;
+    width:95%;
     margin: 40px 10px 10px 1px;
     background-color: rgb(77, 77, 77,0.5);
     padding: 15px;
@@ -63,8 +60,8 @@ button[type="submit"]{
     font-size: 26px; 
  }
 
- div.libro {
-    margin: 40px 10px 10px 1px;
-    
- 
- }
+div.columna {
+    float: left;
+    width: 50%;
+
+}
